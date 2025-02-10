@@ -1,0 +1,146 @@
+:root {
+  --blue-color: #4d5ae5;
+  --title-color: #2e2f42;
+  --text-color: #434455;
+  --white-color: #ffffff;
+  --other-color: #f4f4fd;
+  --focus-color: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--title-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-blue {
+  color: var(--blue-color);
+}
+
+.logo-black {
+  color: var(--title-color);
+}
+
+.logo-white {
+  color: var(--white-color);
+}
+
+.site-nav {
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--focus-color);
+}
+
+.site-nav .link.current {
+  color: var(--focus-color);
+}
+
+.auth-nav a {
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--focus-color);
+}
+
+.hero {
+  background-color: var(--title-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--focus-color);
+}
+
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.features-text {
+  color: var(--text-color);
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.work-title {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-job {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--title-color);
+}
+
+.footer-text {
+  color: var(--other-color);
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
